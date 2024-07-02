@@ -15,18 +15,15 @@ app.use(express.static("public"));
 app.use(html_routes)
 
 
-// Since the GET and POST functions grab from the same route, we can set it once up here.
 app.route("/api/notes")
-    // Grab the notes list (this should be updated for every new note and deleted note.)
+    // Grab the notes list (should be updated for every new note and deleted note.)
     .get(function (req, res) {
         fs.readFile ("./db/db.json",  (err, data) => {
             if (err) {
                 throw err
             }
 res.send (data)
-         })
-
-            
+         }) 
     })
 
     // Add a new note to the json db file.
@@ -53,7 +50,7 @@ res.send (data)
          })
     });
 
-// Delete the  note
+// Delete the note
 const handleNoteDelete = (x) => {
     e.stopPropagation();
   
