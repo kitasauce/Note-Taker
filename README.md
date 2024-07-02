@@ -30,3 +30,6 @@ No tests on this project.
 For any questions please contact me here:
 
 https://github.com/kitasauce
+
+## Video Walkthrough 
+https://www.youtube.com/watch?v=5GH_Xr8qi5M 
