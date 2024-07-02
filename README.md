@@ -6,6 +6,8 @@ This application uses express.js to generate a landing page with prebuilt code t
 ## Installation 
 Clone this repository using the HTTPS method or downloading ZIP in the same section.
 
+![Note Taker UI](./images/screenshot.png)
+
 ## Usage
 1. Download code from github
 2. Open the teminal in the main folder in an application like VS code 
